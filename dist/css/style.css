@@ -1,0 +1,68 @@
+html,body{
+	width: 100%;	
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background: url('../images/bg-login.png') repeat;	
+}
+
+.top{
+
+	height: 300px;
+	width: 100%;
+	margin: auto;
+	padding-top: 180px;
+	box-sizing: border-box;
+	background: url('../images/bg-login-top.png') repeat ;
+}
+
+#logo{
+	display: block;
+	/*width:200px;*/
+	margin: 0 auto;
+
+}
+
+label{
+	display: block;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+form{
+
+ 	margin: 0 auto;
+ 	display: block;
+ 	width: 300px;
+}
+
+button{
+
+	background-color: #71AC00;
+	height: 30px;
+	width: 70px;
+	float: right;
+	/*margin-right: 10px;*/
+	border-radius: 5px;
+	border: none;
+	color: white;
+	
+	font-size: 14px;
+
+
+}
+
+input{
+	/*display: block;*/
+	border-radius: 5px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	height: 25px;
+	width: 225px
+
+
+}
