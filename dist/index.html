@@ -8,14 +8,16 @@
 	<section class="top"><div><img id="logo" src="images/treemoLabs-logo.png" width="308" height="100"></div></section>
 	<section class="bottom">
 		<form>
-			<label>Username<input type="text"></label>
-			
-			<label>Password <input type="text"></label>
+			<label >Username<input id="user" type="text"></label>
+			<div class="error" id="user-error"></div>
+			<label >Password <input id="password" type="password"></label>
+			<div class="error" id="pass-error"></div>
 			<button type="submit">Sign In</button>
 		</form>
 	</section>
 
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/validator-js/validator.min.js"></script>
 <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
